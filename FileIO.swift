@@ -30,7 +30,6 @@ guard let outputFile = FileHandle(forWritingAtPath: outputFilePath) else {
     exit(1)
 }
 
-
 // Helper function for writing data
 func writeToOutputFile(_ text: String) {
     if let data = text.data(using: .utf8) {
